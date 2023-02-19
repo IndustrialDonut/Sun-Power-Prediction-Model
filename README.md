@@ -1,5 +1,7 @@
 # Sun-Power-Prediction-Model
 
+This uses transfer learning in Pytorch on a pretrained Resnet18 model, to do a regression learning on _the power of the sun_ in as specified in the Bender scene. The end model will give us what it thinks the actual value of the sun is set to, vs what we labelled the pictures with that it actually is.
+
 To use, first make sure you have installed Pytorch with Jupyter Notebook, and Blender.
 
 1. Open the Blender file called DataGenerator, and go to the Scripting tab. Set your output path where you desire, then make sure you have the SUN selected, and run the script. This will generate your training and validation data which is too large to host on github.
